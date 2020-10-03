@@ -15,23 +15,48 @@ p {
   font-family: sans-serif;
 }
 
+
+.website-title{
+  height: 140px;
+  background-color: #84b4db;
+  border-bottom: 2px solid white;
+  box-shadow: 10px 5px 10px grey;
+
+}
+
+.title-text{
+  font-size: 1.9em;
+  color: #1d2d50;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: 'Noto Serif', serif;
+  font-weight: bolder;
+
+}
+
 .navigation {
-  height: 10%;
   background-color: #1d2d50;
   color: #ffffff;
-  margin-bottom: 3px;
+  z-index: 4;
+
 }
 
 .navigation-bar {
   position: relative;
   font-family: 'Noto Serif', serif;
-  width: auto;
+  font-size: 1.2em;
   box-shadow: 10px 5px 10px grey;
+
 }
 
-.navigation-title {
-  padding-left: 3%;
+.navbar-nav{
+  position: relative;
+  left: 50%;
+  transform: translateX(-47%);
+  width: auto;
+
 }
+
 
 .nav-link {
   color: white !important;
@@ -50,6 +75,7 @@ p {
   opacity: 0;
   transform: translateY(50px);
   transition: .5s ease all;
+  z-index: 2;
 }
 
 .dropdown-menu.show {
@@ -269,6 +295,35 @@ p {
 }
 
 
+.team-head{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid grey;
+  border-radius: 3%;
+  padding: 2%;
+  background-color: #1d2d50;
+  color: #ffffff;
+}
+
+.team-member{
+  border: 1px solid grey;
+  border-radius: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #1d2d50;
+  color: #ffffff;
+}
+
+.team-icon{
+  width: 40%;
+  /* padding-bottom: 8%; */
+  border-radius: 50%;
+
+}
+
+
+
 /* student */
 .member{
   background-color: #1d2d50;
@@ -279,11 +334,12 @@ p {
   border: 1px solid grey;
   border-radius: 2%;
   box-shadow: 4px 5px 20px grey;
-  word-wrap: break-word
-  padding-top: 4%;
-  padding-bottom: 3%;
+  word-wrap: break-word;
+  padding-top: 1%;
+  padding-bottom: 1%;
   word-wrap: break-word;
 }
+
 
 .team-card-icon{
   margin-top: 12%;
