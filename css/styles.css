@@ -156,7 +156,7 @@ p {
   text-align: left;
   background-color: #133b5c;
   color: white;
-  box-shadow: 10px -5px 20px grey;
+  /*box-shadow: 10px -5px 20px grey;*/
 }
 
 .rights {
